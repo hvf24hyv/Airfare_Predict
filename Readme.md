@@ -64,17 +64,6 @@ To build a data product that will help users in the USA to better estimate their
     │   
     └── sets.py            <- Code to split the datasets and perform transformations on the features
 ```
-
---------
-## Order of running the data preperation notebooks:
-1. SamyappanNallamuthu_Paiynthalir-24715435-DataPreparation.ipynb - under notebooks folder
-   This notebook is to be run first since this is to merge the raw data and come up with the interim files, which can later be used for further data processing needed
-
-2. SamyappanNallamuthu_Paiynthalir-24715435-DataExploration.ipynb - under notebooks folder
-    This notebook is to be run second to further process and clean the data, prepare annd split the datasets and store them to the data folder. 
-
-3. Remaining notebooks under the same folder are all experiment notebooks with the name of the algorithms in the last part of the jupyter notebook's name.
-
 --------
 ## Project setup
 1. Go to the projects folder (Airfare_Predict)
